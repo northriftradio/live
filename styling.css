@@ -1,9 +1,9 @@
 body {
-	background-color: black;
+	
 	color: white;
 	font-family: "Arial", 'Verdana', "Sans-serif";
 	background: url(bg.jpg);
-	background-size: fill;
+	background-color: black;
  	background-repeat: no-repeat;
 }
 
@@ -13,10 +13,11 @@ body {
   border: 5px solid white;
 
   margin: 25px;
- overflow: auto;
+  overflow: auto;
   background: url(mic.jpg);	
   background-size: 300px auto;
- 	background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-color: black;
 }
 
 .floatright {
@@ -30,11 +31,14 @@ body {
 .titlebar {
   width: auto;
   height: 30px;
-  background: #062300;
 
   padding: 10px;
 
  overflow: hidden;
+
+	opacity: 1;
+text-orientation: none;
+	top: 0;
 
 }
 
@@ -50,6 +54,8 @@ ul {
   margin: 10;
   padding: 0;
   overflow: hidden;
+
+
 }
 
 li {
@@ -63,13 +69,43 @@ li a {
   text-decoration: none;
 }
 
+li:hover{
+	background-color: #062300;
+}
+
 .footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
+  background-color: #147500;
   color: white;
   text-align: center;
-  font-size: auto;
+  font-size: 10px;
+  height: 50px;
+}
+
+.player{
+	 position: fixed;
+	bottom: 52px;
+	left: 0;
+}
+.love{
+	font-size: 30px;
+}
+
+.love:active {
+	color: #FE0199;
+}
+
+audio{
+	width: 100%;
+}
+.titlebarbg{
+	background-color: black;
+	opacity: 1;
+	position: fixed;
+	top: 0;
+	height: 50px;
+	width: 100%;
 }
