@@ -70,7 +70,7 @@ li a {
 }
 
 li:hover{
-	background-color: #062300;
+	background-color: red;
 }
 
 .footer {
@@ -96,7 +96,18 @@ li:hover{
 
 .love:active {
 	color: #FE0199;
+	    z-index: 2;
+    -webkit-transition: all 100ms ease-in;
+    -webkit-transform: scale(2);
+    -ms-transition: all 100ms ease-in;
+    -ms-transform: scale(2);   
+    -moz-transition: all 100ms ease-in;
+    -moz-transform: scale(2);
+    transition: all 100ms ease-in;
+    transform: scale(2);
 }
+
+
 
 audio{
 	width: 100%;
@@ -108,4 +119,14 @@ audio{
 	top: 0;
 	height: 50px;
 	width: 100%;
+}
+
+.animate-fading{
+	animation:fading 2s infinite
+	}
+
+@keyframes fading{
+	0%{opacity:0}
+	50%{opacity:1}
+	100%{opacity:0}
 }
