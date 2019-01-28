@@ -13,12 +13,13 @@ body {
   border: 5px solid white;
 
   margin: 25px;
-  overflow: auto;
+overflow: hidden;
   background: url(mic.jpg);	
   background-size: 300px auto;
   background-repeat: no-repeat;
   background-color: black;
 }
+
 
 .floatright {
   float: right;
@@ -131,7 +132,8 @@ audio{
 	100%{opacity:0}
 }
 h1{
-	font-size: 15px;
+	font-size: 18px;
+	font-weight: normal;
 }
 h2{
 	font-size: 10px;
@@ -140,4 +142,20 @@ h2{
 h3{
 	font-size: 18px;
 	font-weight: normal;
+}
+
+	@media screen and (min-width: 1001px) {
+  div.msg {
+    font-size: 20px;
+    text-align: center;
+    visibility: hidden;
+  }
+}
+
+	@media screen and (max-width: 1000px) {
+  div.msg {
+    font-size: 10px;
+    text-align: center;
+    visibility: hidden;
+  }
 }
