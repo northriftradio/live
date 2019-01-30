@@ -148,7 +148,8 @@ h3{
   div.msg {
     font-size: 20px;
     text-align: center;
-    visibility: hidden;
+
+
   }
 }
 
@@ -156,6 +157,10 @@ h3{
   div.msg {
     font-size: 10px;
     text-align: center;
-    visibility: hidden;
+
   }
+}
+
+.hide{
+    visibility: hidden;
 }
