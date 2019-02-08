@@ -15,7 +15,6 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-126725333-2');
 </script>
 
@@ -26,12 +25,49 @@
 <link rel="stylesheet" type="text/css" href="styling.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,300,500,700" rel="stylesheet" type="text/css">
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="progres-bar.css">
 
+<script type="text/javascript">
+  
+setTimeout(function() {
+  jQuery('.fixed').fadeOut();
+}, 20000);
+
+
+
+
+
+</script>
 
 </head>
 
 
 <body oncontextmenu="return false">
+
+
+
+<div id="circle_loader" class="fixed">
+<svg version="1.1" id="L3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  viewBox="0 0 100 100" enable-background="new 0 0 0 0" xml:space="preserve">
+<circle fill="none" stroke="#229100" stroke-width="4" cx="50" cy="50" r="44" style="opacity:0.2;"/>
+  <circle fill="#fff" stroke="#229100" stroke-width="3" cx="8" cy="54" r="6" >
+    <animateTransform
+      attributeName="transform"
+      dur="2s"
+      type="rotate"
+      from="0 50 48"
+      to="360 50 52"
+      repeatCount="indefinite" />
+    
+  </circle><p><font size="2" color="#229100" style="opacity: 1">Loading. Please wait</font></p>
+</svg>
+
+</div>
+
+
+
+
 
 <div align="center">
 <!-- <div class="titlebarbg"></div> -->
@@ -43,7 +79,7 @@
 
 <br>
 
-<h2><font size="5"> We are Live!</font></h2>
+<h2><font size="5"> Live Stream</font></h2>
 
 
 <div class="box">
@@ -56,11 +92,8 @@
 <div class="hide"><p><i> Listen live online to Northrift Radio online live stream</i></p></div>
 
 
-<br>
-<font size="6"><i class="fa fa-heart love"></font></i>
-<br>
-<br>
-<br>
+<!-- <font size="6"><i class="fa fa-heart love"></font></i> -->
+
 
 
 <table>
@@ -74,6 +107,51 @@
 
 </div>
 
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Media Player-->
+<div align="center" class="mediPlayer roundplayer" >
+    <audio class="listen" autoplay="autoplay" preload="auto" data-size="75" src="http://bit.ly/northriftradio_w_live?type=audio/mpeg"></audio>
+</div>
+</div>
+<!-- Media Player / -->
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="playerRound.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('.mediPlayer').mediaPlayer();
+    });
+
+	setTimeout(function(){
+	  $('.roundplayer').fadeIn(3000);  
+	}, 20000);
+
+</script>
+
+
+
+<footer align="center" class="footer" width=100%>
+  <p><font size="2">App coming soon</font></p>
+  <p>&copy 2019 | This is a beta test of our Online Streaming</p>
+</footer>
+
+
+
 
 </body>
 
@@ -82,15 +160,5 @@
 
 
 
-<audio controls autoplay class="playerfill">
-	<source src="http://bit.ly/northriftradio_w_live" type="audio/ogg">
-	We are Live. 
-</audio>
-
-
-<footer align="center" class="footer">
-  <p><font size="2">App coming soon</font></p>
-  <p>&copy 2019 | This is a beta test of our Online Streaming</p>
-</footer>
 
 </html>
