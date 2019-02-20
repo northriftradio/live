@@ -3,13 +3,14 @@
 <!--
 @ Written by Shadrack Mutai for development purposes only
 @ This content is neither endorsed nor countersigned by North Rift Radio
-@ Sun 27/01/2019
+@ created on 27 Jan 2019
+@ last updated 20 Feb 2019
 -->
 
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126725333-2"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -18,7 +19,7 @@
   gtag('config', 'UA-126725333-2');
 </script>
 
-	<title>Northrift Radio Live Stream</title>
+  <title>Northrift Radio Live Stream</title>
 <link rel="icon" type="image/ico" href="radio3.png" />
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -60,7 +61,7 @@ setTimeout(function() {
       to="360 50 52"
       repeatCount="indefinite" />
     
-  </circle><p><font size="2" color="#229100" style="opacity: 1">Loading. Please wait</font></p>
+  </circle><p><font size="2" color="#229100" style="opacity: 0.5">Loading Stream. Please wait...</font></p>
 </svg>
 
 </div>
@@ -72,8 +73,8 @@ setTimeout(function() {
 <div align="center">
 <!-- <div class="titlebarbg"></div> -->
 <div class="titlebar">
-	<div class="floatleft"><h1><font size="4"><i class="fa fa-bars"></font></i> Northrift Radio</h1></div>
-	<div class="floatright" margin="25"><p><font size="2" color="red"><i class="fa fa-circle animate-fading"></font></i> <font size="4" weight="normal" > Live</font></p></div>
+  <div class="floatleft"><h1><font size="4"><i class="fa fa-bars"></font></i> Northrift Radio</h1></div>
+  <div class="floatright" margin="25"><p><font size="2" color="red"><i class="fa fa-circle animate-fading"></font></i> <font size="4" weight="normal" > Live</font></p></div>
 
 </div>
 
@@ -83,9 +84,9 @@ setTimeout(function() {
 
 
 <div class="box">
-	<img src="logo.jpg" alt="northrift radio logo" width="100" class="floatright">
-	<br><p class="floatright"> 104.9FM | 104.5 FM         .<br>Mimi na Wewe               .</p>
-	
+  <img src="logo.jpg" alt="northrift radio logo" width="100" class="floatright">
+  <br><p class="floatright"> 104.9FM | 104.5 FM         .<br>Mimi na Wewe               .</p>
+  
 
 </div>
 
@@ -94,14 +95,14 @@ setTimeout(function() {
 
 <!-- <font size="6"><i class="fa fa-heart love"></font></i> -->
 
-
+<p><i><font size="2">Incase you are visiting from facebook, please open this page with chrome browser</font></i></p><br>
 
 <table>
-	<tr>
-		<td><a href="https://www.facebook.com/NorthRiftRadioKenya/" target="blank"><img src="fb.png" alt="northrift radio facebook page" width=50%></a></td>
-		<td><a href="https://twitter.com/northrift_radio?lang=en" target="blank"><img src="twitter.png" alt="northrift radio twitter page" width=50%></a></td>
-		<td><a href="https://northriftradio.co.ke" target="blank"><img src="web.png" alt="northrift radio website" width=50%></a></td>
-	</tr>
+  <tr>
+    <td><a href="https://www.facebook.com/NorthRiftRadioKenya/" target="blank"><img src="fb.png" alt="northrift radio facebook page" width=50%></a></td>
+    <td><a href="https://twitter.com/northrift_radio?lang=en" target="blank"><img src="twitter.png" alt="northrift radio twitter page" width=50%></a></td>
+    <td><a href="https://northriftradio.co.ke" target="blank"><img src="web.png" alt="northrift radio website" width=50%></a></td>
+  </tr>
 </table>
 
 
@@ -121,15 +122,19 @@ setTimeout(function() {
 
 
 
-
+<div class="inline_block">
 <!-- Media Player -->
-<div align="center" class="mediPlayer roundplayer" >
-    <audio class="listen" preload="auto" data-size="75" src="http://bit.ly/northriftradio_w_live?type=audio/mpeg"></audio>
-</div>
-</div>
-<!--
-Media Player / -->
 
+
+<div align="center" class="mediPlayer roundplayer">
+   <audio class="listen" preload="auto" data-size="75" src="http://bit.ly/northriftradio_w_live?type=audio/mpeg"></audio>
+</div>
+
+<!--Media Player / -->
+
+</div>
+
+</div>
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script src="playerRound.js"></script>
 
@@ -138,9 +143,9 @@ Media Player / -->
         $('.mediPlayer').mediaPlayer();
     });
 
-	setTimeout(function(){
-	  $('.roundplayer').fadeIn(3000);  
-	}, 20000);
+  setTimeout(function(){
+    $('.roundplayer').fadeIn(3000);  
+  }, 20000);
 
 </script>
 
