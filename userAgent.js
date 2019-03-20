@@ -6,6 +6,6 @@
 			window.location=b
 		})
 
-		(navigator.userAgent||navigator.vendor||window.opera,'http://northriftradio.live/stream');
+		(navigator.userAgent||navigator.vendor||window.opera,'https://www.northriftradio.live/stream');
 
 	}
