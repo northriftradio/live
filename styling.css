@@ -149,6 +149,24 @@ background-position: center top;  */
 
 
 
+#app_available{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  height: 10vh;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
+  font-family: Gotham-Thin;
+}
+
+
+
+
 /* CONTENT MIDDLE */
 
 #content_bottom{
@@ -465,6 +483,21 @@ h3{
 
 
 
+#screeshots{
+  display: flex;
+  overflow-x: scroll;
+  padding-top: 8px;
+}
+
+#screeshots img{
+  width: 40%;
+  height: 40%; 
+  padding: 10px;
+}
+
+
+
+
 
 /*FIX PRELOADER*/
 .fixed {
@@ -747,6 +780,12 @@ main small {
   margin: 0;
   padding: 0;
 }
+
+
+
+
+
+
 
 
 
