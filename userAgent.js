@@ -6,6 +6,29 @@
 			window.location=b
 		})
 
-		(navigator.userAgent||navigator.vendor||window.opera,'https://www.northriftradio.live/stream');
+		(navigator.userAgent||navigator.vendor||window.opera,'stream.html');
 
 	}
+
+
+
+/*whatsapp*/
+function decorateWhatsAppLink() {
+  //set up the url
+  var url = 'whatsapp://send?text=';
+
+  //define the message text
+  var text = 'Hey, listen to North Rift Radio online here www.northriftradio.live';
+
+  //encode the text
+  var encodedText = encodeURIComponent(text);
+
+  //find the link
+  var $whatsApp = $('.whatsapp a');
+
+  //set the href attribute on the link
+  $whatsApp.attr('href', url + encodedText);
+}
+
+//call the decorator function
+decorateWhatsAppLink()
