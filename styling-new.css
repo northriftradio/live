@@ -279,8 +279,9 @@ body{
 
 #bottom{
 	min-height: 50vh;
-	box-shadow: 0 10px 50px 0 rgba(1,1,1,0.8);
+	box-shadow: 0px -52px 199px 0px rgba(1,1,1,1);
 	background: white;
+	width: 100%;
 }
 
 
