@@ -64,7 +64,8 @@ body{
 
 #top{
 	display: flex;
-	background: url('pokot.jpg') no-repeat center center;
+	background: url('pokot.jpg') no-repeat;
+	background-position: center center; 
 	background-attachment: fixed;
         background-size: cover;
 	height:55vh;
