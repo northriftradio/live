@@ -68,6 +68,7 @@ body{
 	background-position: top center; 
 	background-attachment: fixed;
         background-size: cover;
+	-webkit-backface-visibility: hidden;
 	height:55vh;
 	overflow-y: scroll;
 	width:auto;
