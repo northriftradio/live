@@ -7,10 +7,14 @@
 
 
 body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	background: url('pokot.jpg') no-repeat;
-	background-position: top center; 
+	background-position: center center; 
 	background-attachment: fixed;
-        background-size: 100vh 100vw;
+        background-size: cover;
 	width: 768px;
 	box-shadow: 0 1px 10px 0 rgba(1,1,1,0.5);
 	font-family: sans-serif, arial;
