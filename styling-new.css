@@ -64,10 +64,9 @@ body{
 
 #top{
 	display: flex;
-	background: url('pokot.jpg');
+	background: url('pokot.jpg') no-repeat center center;
 	background-attachment: fixed;
         background-size: cover;
-        transform: scale(1.1, 1.1);
 	height:55vh;
 	overflow-y: scroll;
 	width:auto;
@@ -559,5 +558,4 @@ background-color: #FF6600
   body{
   width: auto;
   }
-  background-size: 100% 100vh;
 }
