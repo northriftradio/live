@@ -276,13 +276,10 @@ body{
 
 
 #bottom{
-	display: flex;
-	flex-direction: column;
 	min-height: 50vh;
 	box-shadow: 0 1px 10px 0 rgba(1,1,1,0.5);
-	z-index: -2;
+	z-index: -1;
 	background: white;
-	width: 100vw;
 }
 
 
