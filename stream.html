@@ -286,7 +286,9 @@ window.onclick = function(event) {
 
 
 <script>
-  setInterval(shows(), 120000);
+      window.setInterval(function(){
+          shows()
+      }, 60000);
 </script>
 
     <script src="mediaelement-and-player.js"></script>
