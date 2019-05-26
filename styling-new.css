@@ -65,14 +65,15 @@ body{
 #top{
 	display: flex;
 	background: url('pokot.jpg') no-repeat;
-	background-size: cover;
 	background-attachment: fixed;
 	background-position: center center;
 	-webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
+	background-size: cover;
 	height:55vh;
 	overflow-y: scroll;
+	
 }
 
 #nownextlater{
