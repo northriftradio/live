@@ -7,6 +7,7 @@
 
 
 body{
+	display: block;
 	width: 768px;
 	margin: auto;
 	box-shadow: 0 1px 10px 0 rgba(1,1,1,0.5);
@@ -239,8 +240,8 @@ body{
 	margin-top: 20px;
 	position: fixed;
 	bottom: 0;
-	background: #E6E6E6;
-	color: #126C00;
+	background: #126C00;
+	color: white;
 	box-shadow: 0 1px 10px 0 rgba(1,1,1,0.2);
 }
 
@@ -253,7 +254,7 @@ body{
 
 .buttons a{
 	text-decoration: none;
-	color: #126C00;
+	color: white;
 }
 
 
