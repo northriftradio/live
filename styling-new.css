@@ -243,6 +243,7 @@ body{
 	background: #126C00;
 	color: white;
 	box-shadow: 0 1px 10px 0 rgba(1,1,1,0.2);
+	z-index: 5;
 }
 
 
@@ -277,7 +278,7 @@ body{
 #bottom{
 	min-height: 50vh;
 	box-shadow: 0 1px 10px 0 rgba(1,1,1,0.5);
-	z-index: 5;
+	z-index: 4;
 	background: white;
 }
 
