@@ -45,7 +45,7 @@ body{
 	left: 5px;
 	top: 20px;
 	color: #3b5998;
-
+	z-index: 3;
 }
 
 
