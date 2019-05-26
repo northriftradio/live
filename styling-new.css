@@ -12,7 +12,7 @@ body{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background: url('pokot.jpg');
+	background: url('https://source.unsplash.com/800x1000/?minimal,minimal');
 	background-repeat: no-repeat;
 	background-position: center center; 
 	background-attachment: fixed;
