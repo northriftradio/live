@@ -6,7 +6,7 @@
 			window.location=b
 		})
 
-		(navigator.userAgent||navigator.vendor||window.opera,'stream.html');
+		(navigator.userAgent||navigator.vendor||window.opera,'AAABaw05rG4N21x4WibXDhITRRwPb0SspGF572JzHHx2MIm8WmIHGg.html');
 
 	}
 
