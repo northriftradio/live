@@ -12,11 +12,7 @@ body{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background: url('https://source.unsplash.com/800x1000/?minimal,black');
-	background-repeat: no-repeat;
-	background-position: center top; 
-	background-attachment: fixed;
-        background-size: cover;
+	
 	width: 768px;
 	box-shadow: 0 1px 10px 0 rgba(1,1,1,0.5);
 	font-family: sans-serif, arial;
@@ -71,6 +67,11 @@ body{
 
 #top{
 	display: flex;
+	background: url('https://source.unsplash.com/800x1000/?minimal,black');
+	background-repeat: no-repeat;
+	background-position: center top; 
+	background-attachment: fixed;
+        background-size: cover;
 	height:55vh;
 	overflow-y: scroll;
 	width:auto;
