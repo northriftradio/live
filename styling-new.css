@@ -94,6 +94,7 @@ body{
 	height: 50vw;
 	background: white;
 	margin: 5px;
+	border: 1px solid #126C00;
 }
 
 #nownextlater .now h2{
