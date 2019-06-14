@@ -300,6 +300,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
     margin: 0 10px;
     padding-top: 10px;
     position: relative;
+    display: none;
 }
 
 .mejs__time-total,
