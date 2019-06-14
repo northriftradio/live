@@ -3358,7 +3358,7 @@ var EN = exports.EN = {
 
 	'mejs.time-slider': 'Time Slider',
 	'mejs.time-help-text': 'Use Left/Right Arrow keys to advance one second, Up/Down arrows to advance ten seconds.',
-	'mejs.live-broadcast': 'Live Broadcast',
+	'mejs.live-broadcast': 'Live',
 
 	'mejs.volume-help-text': 'Use Up/Down Arrow keys to increase or decrease volume.',
 	'mejs.unmute': 'Unmute',
