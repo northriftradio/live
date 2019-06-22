@@ -99,7 +99,7 @@ function sat(){
 			break
 
 		case 10: case 11: case 12:
-			interactExtra()
+			declaresShow()
 			break
 
 		case 13: case 14:
@@ -221,7 +221,7 @@ function happySabbath(){
 		document.getElementById("show_next_name").innerHTML="Jukwaa la Mtoto"
 		document.getElementById("show_next_time").innerHTML="8am - 10am"
 
-		document.getElementById("show_later_name").innerHTML="Interact Extra"
+		document.getElementById("show_later_name").innerHTML="Declares Inspirational"
 		document.getElementById("show_later_time").innerHTML="10am - 1pm"	
 }
 
@@ -229,15 +229,15 @@ function jukwaaLaMtoto(){
 		document.getElementById("show_now_name").innerHTML="Jukwaa la Mtoto"
 		document.getElementById("show_now_time").innerHTML="8am - 10am"
 
-		document.getElementById("show_next_name").innerHTML="Interact Extra"
+		document.getElementById("show_next_name").innerHTML="Declares Inspirational"
 		document.getElementById("show_next_time").innerHTML="10am - 1pm"
 
 		document.getElementById("show_later_name").innerHTML="Reggae Spice"
 		document.getElementById("show_later_time").innerHTML="1pm - 3pm"	
 }
 
-function interactExtra(){
-		document.getElementById("show_now_name").innerHTML="Interact Extra"
+function declaresShow(){
+		document.getElementById("show_now_name").innerHTML="Declares Inspirational"
 		document.getElementById("show_now_time").innerHTML="10am - 1pm"
 
 		document.getElementById("show_next_name").innerHTML="Reggae Spice"
