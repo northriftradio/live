@@ -69,8 +69,6 @@ body{
 
 #top{
 	display: flex;
-
-	height:75vh;
 	overflow-y: scroll;
 	width:100%;
 }
