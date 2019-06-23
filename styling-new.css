@@ -98,7 +98,7 @@ body{
 #nownextlater .now h2{
 	color: red;
 	margin: 0;
-	padding: 0;
+	padding-top: 10px;
 	font-size: 0.8rem;
 	font-weight: normal;
 }
