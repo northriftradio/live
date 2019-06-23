@@ -71,7 +71,7 @@ body{
 	display: flex;
 	overflow-y: scroll;
 	width:100%;
-	
+	height:95vh;
 }
 
 #nownextlater{
