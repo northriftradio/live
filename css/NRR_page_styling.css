@@ -1,0 +1,392 @@
+@font-face {
+  font-family: Gotham-Thin;
+  src: url(../fonts/Gotham-Thin.ttf);
+}
+
+@font-face {
+  font-family: Gotham-Medium;
+  src: url(../fonts/Gotham-Medium.ttf);
+}
+
+
+
+.noselect {
+    cursor: default;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+body{
+	background: url('../pictures/images/mic_bg_right.webp') no-repeat;
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+	min-height: 100vh;
+}
+
+
+main{
+
+
+}
+
+
+
+
+#desk_top{
+	display: flex;
+	justify-content: flex-end;
+	min-height: 15vh;
+	width: 100vw;
+	
+
+}
+
+#desk_top .desk_top_left_content{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	background: white;
+	width: 100px;
+	height: 15vh;
+}
+
+#desk_top .desk_top_left_content .page_logo{
+	height: 80px;
+	width: 80px;
+	background: url('../pictures/logo/north_rift_radio_logo.jpg') no-repeat;
+	background-size: cover;
+}
+
+
+#desk_top .desk_top_right_content{
+	display: flex;
+	align-items: flex-end;
+	width: 85vw;
+	height: 14vh;
+	
+}
+
+#desk_top .desk_top_right_content .top_center_content{
+	
+	height: 10vh;
+	width: 5vw;
+}
+
+#desk_top .desk_top_right_content .page_title{
+	
+	width: 72vw;
+}
+
+#desk_top .desk_top_right_content .page_title h1{
+	font-family: Gotham-Thin;
+	font-weight: normal;
+	font-size: 1rem;
+	text-align: right;
+	color: white;
+}
+
+
+
+
+
+#desk_middle{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 65vh;
+	width: 100vw;
+}
+
+
+
+#desk_middle .desk_middle_left_content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 65vh;
+	width: 50vw;
+}
+
+#player_title{
+	color: red;
+	font-family: Gotham-Medium;
+	font-size: 3rem;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+#show_now_name{
+	color: white;	
+	font-family: Gotham-Medium;
+	font-size: 1.5rem;
+	padding: 0;
+	text-align: center;
+}
+
+#show_now_time{
+	font-family: Gotham-Thin;
+	color: white;
+	font-size: 1rem;
+	padding: 5px 0 15px 0;
+	text-align: center;
+}
+
+#desk_middle .desk_middle_left_content .social_icons{
+	display: flex;
+
+	justify-content: space-between;
+	align-items: center;
+	width: 250px;
+	/* background: red; */
+	height: 80px;
+}
+
+#desk_middle .desk_middle_left_content .social_icons a{
+	color: white;
+}
+
+#desk_middle .desk_middle_left_content .social_icons a:hover{
+	color: #126C00;
+	font-size: 1.5rem;
+}
+
+#desk_middle .desk_middle_right_content{
+	min-height: 60vh;
+	width: 50vw;
+}
+
+
+
+
+
+
+
+
+
+footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 14vh;
+	width: 100vw;
+	background: rgba(0,0,0, 0.7);
+	border-top: 1px solid #404040;
+}
+
+footer #footer_content_wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	min-height: 24.8vh;
+	width: 85vw;
+}
+
+footer #footer_content_wrapper .footer_left_content{
+
+	background: url('../pictures/logo/en_badge_web_generic.png') no-repeat; 
+	background-size: 150px;
+	height: 60px;
+	width: 150px;
+}
+
+footer #footer_content_wrapper .footer_right_content{
+	
+	height: 8vh;
+	width: 30vw;
+}
+
+footer #footer_content_wrapper .footer_right_content p{
+	color: rgba(255,255,255, 0.5);
+	font-family: Gotham-Thin;
+	font-size: 0.8rem;
+	text-align: right;
+}
+
+footer #footer_content_wrapper .footer_right_content p a{
+	color: rgba(255,255,255, 0.5);
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* LOADER */
+.lds-roller {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-roller div {
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 40px 40px;
+}
+.lds-roller div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #fff;
+  margin: -4px 0 0 -4px;
+}
+.lds-roller div:nth-child(1) {
+  animation-delay: -0.036s;
+}
+.lds-roller div:nth-child(1):after {
+  top: 63px;
+  left: 63px;
+}
+.lds-roller div:nth-child(2) {
+  animation-delay: -0.072s;
+}
+.lds-roller div:nth-child(2):after {
+  top: 68px;
+  left: 56px;
+}
+.lds-roller div:nth-child(3) {
+  animation-delay: -0.108s;
+}
+.lds-roller div:nth-child(3):after {
+  top: 71px;
+  left: 48px;
+}
+.lds-roller div:nth-child(4) {
+  animation-delay: -0.144s;
+}
+.lds-roller div:nth-child(4):after {
+  top: 72px;
+  left: 40px;
+}
+.lds-roller div:nth-child(5) {
+  animation-delay: -0.18s;
+}
+.lds-roller div:nth-child(5):after {
+  top: 71px;
+  left: 32px;
+}
+.lds-roller div:nth-child(6) {
+  animation-delay: -0.216s;
+}
+.lds-roller div:nth-child(6):after {
+  top: 68px;
+  left: 24px;
+}
+.lds-roller div:nth-child(7) {
+  animation-delay: -0.252s;
+}
+.lds-roller div:nth-child(7):after {
+  top: 63px;
+  left: 17px;
+}
+.lds-roller div:nth-child(8) {
+  animation-delay: -0.288s;
+}
+.lds-roller div:nth-child(8):after {
+  top: 56px;
+  left: 12px;
+}
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 425px){
+	
+
+
+
+
+	#desk_top .desk_top_left_content{
+		width: 50px;
+		background: none;
+		padding: 0 0 0 10px;
+	}
+
+	#desk_top .desk_top_right_content .page_title{
+		width: 100%;
+	}
+
+	#desk_top .desk_top_right_content .page_title h1{
+		text-align: center;
+		font-size: 4vw;
+	}
+
+	#desk_top .desk_top_left_content .page_logo{
+		background: url('../pictures/logo/north_rift_radio_logo_round.jpg') no-repeat;
+		background-size: cover;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+
+	}
+
+	#desk_top .desk_top_right_content .top_center_content{
+		display: none;
+	}
+
+	footer #footer_content_wrapper{
+		width: 100vw;
+	}
+
+	footer #footer_content_wrapper .footer_left_content{
+		width: 100vw;
+		background-position: center;
+		
+	}
+
+	footer #footer_content_wrapper .footer_right_content{
+		display: none;
+	}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
