@@ -115,6 +115,33 @@ main{
 	width: 50vw;
 }
 
+#desk_middle .desk_middle_left_content a{
+	text-decoration: none;
+}
+
+#desk_middle .desk_middle_left_content .play_btn{
+	height: 100px;
+	width: 100px;
+	background: none;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid white;
+}
+
+#desk_middle .desk_middle_left_content .play_btn i{
+	font-size: 2rem;
+	color: white;
+}
+
+#desk_middle .desk_middle_left_content p{
+	color: white;
+	font-family: Gotham-Thin;
+	font-size: 0.7rem;
+	text-align: center;
+}
+
 #player_title{
 	color: red;
 	font-family: Gotham-Medium;
