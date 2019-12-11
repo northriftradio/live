@@ -1,80 +1,194 @@
 <!DOCTYPE html>
 <html>
 <head>
-	
-	
 
-	
-	
-	
-	
-	
-<!--   Yandex.Metrika counter -->
+	  <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
- (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
- m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
- (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
- ym(53009542, "init", {
-      clickmap:true,
-      trackLinks:true,
-      accurateTrackBounce:true,
-      webvisor:true
- });
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+   ym(53009542, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/53009542" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
-
-
-
-<!--Global site tag (gtag.js) - Google Analytics -->
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126725333-3"></script>
 <script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-
-gtag('config', 'UA-126725333-3');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-126725333-3');
 </script>
 
-	
-	
-	
-	
-	<title>North Rift Radio | Podcasts</title>
-<link rel="icon" type="image/ico" href="radio4.png" />
-<meta charset="utf-8">
-<META NAME="robots" CONTENT="noindex,nofollow">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Listen to North Rift Radio 104.9FM live online">
-<meta name="keywords" content="North Rift App,North Rift Radio App, Northrift App, Northrift, North Rift, north rift radio, North Rift Radio Live Stream, North Rift live, North Rift online, North Rift makutano">
-	<style type="text/css">
-		body{
-			font-family: sans-serif;
-		}
-	</style>
-</head>
-<body>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="description" content="Listen to North Rift Radio Live online - Streaming site">
+	<meta name="keywords" content="northrift, northrift radio, radio, radio live, north rift radio online, north rift radio live stream">
+	<meta name="author" content="FYN Developers, info@fyndevelopers.com">
+	<meta name="theme-color" content="#135207">
+	<meta name="copyright"content="North Rift Radio">
+	<meta name="language" content="EN">
 
-	<div style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100vw; height: 100vh;">
-		<h2>Podcasts</h2>
-		<img src="coming_soon_graphic.jpg" width="50%">
-		<p>coming soon</p>
+
+	<meta name="og:title" content="North Rift Radio Live Stream"/>
+	<meta name="og:url" content="https://www.northriftradio.live"/>
+	<meta name="og:image" content="https://www.irepfoundation.org/pictures/logo/north_rift_radio_logo.jpg"/>
+	<meta name="og:site_name" content="North Rift Radio"/>
+	<meta name="og:description" content="Listen to North Rift Radio Live online - Streaming site"/>
+	<meta name="og:email" content="info@northriftradio.co.ke"/>
+	
+
+	<title>North Rift Radio Live Stream</title>
+
+	<link rel="icon" href="pictures/logo/north_rift_radio_logo.jpg" type="image/jpg">
+	<link rel="stylesheet" type="text/css" href="css/NRR_page_styling.css">
+	<link rel="stylesheet" href="css/mediaelementplayer.css">
+	<link rel="stylesheet" href="css/progres-bar.css">
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link rel="manifest" href="manifest.json" />
+
+
+</head>
+
+<body onload="shows()" oncontextmenu="return false" class="noselect">
+
+
+<main>
+	<section id="desk_top">
+		<div class="desk_top_left_content">
+			<div class="page_logo">
+				
+			</div>
+			
+		</div>
+
+		<div class="desk_top_right_content">
+			<div class="top_center_content">
+				
+			</div>
+
+			<div class="page_title">
+				<h1>North Rift Radio Online Streaming</h1>
+			</div>
+			
+		</div>
+		
+	</section>
+
+
+
+
+
+
+
+
+
+	<section id="desk_middle">
+
+
+
+		<div class="desk_middle_left_content">
+
+			<div class="lds-roller" id="spin_loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+
+			
+		
+							<div id="player_title"></div>
+							
+							<div id="show_now_name"></div>
+							<div id="show_now_time"></div>
+
+							<div>
+
+											<section style="display: none;">
+									            <form >
+									                <label>
+									                    <select name="lang">
+									                 </select>
+									                </label>
+									                <label>
+									                <select name="stretching">
+
+									                </select>
+									                </label>
+									            </form>
+									        </section>
+
+											 <div id="container" >
+											        
+											        <div class="players" id="player2-container" style="display: none;">
+											            <div class="media-wrapper">
+											                <audio id="player2" autoplay="autoplay" controls style="width:280px;">
+											                    <source src="http://bit.ly/NorthRiftRadio1" type="audio/mp3">
+											                </audio>
+											            </div>        
+											        </div>
+											</div>
+							</div>
+							<div class="social_icons" id="social_icons"style="display: none;">
+								<a href="https://northriftradio.co.ke" target="_blank"><i class="fas fa-home"></i></a>
+								<a href="https://www.facebook.com/NorthRiftRadioKenya"><i class="fab fa-facebook" target="_blank"></i></a>
+								<a href="https://twitter.com/NorthRiftRadio_"><i class="fab fa-twitter" target="_blank"></i></a>
+								<a href="https://m.youtube.com/channel/UCfiPctO-ZloykLd4rffBDlw"><i class="fab fa-youtube" target="_blank"></i></a>
+								<a href="https://northriftradio.co.ke/shows/" target="_blank"><i class="fas fa-calendar-alt"></i></a>
+								<a href="https://northriftradio.co.ke/about/" target="_blank"><i class="fas fa-info-circle"></i></a>
+								
+							</div>
+			
+		</div>
+
+		<div class="desk_middle_right_content" style="display: none;">
+			
+		</div>		
+	</section>
+
+
+</main>
+
+
+
+
+
+
+<footer>
+	<div id="footer_content_wrapper">
+		<a href="https://play.google.com/store/apps/details?id=com.northriftradio.release" target="_blank">
+			<div class="footer_left_content"></div>
+		</a>
+
+		<div class="footer_right_content">
+			<p>
+				&copy 2019 | 
+				Kiyako ltd | 
+				All Rights Reserverd
+				
+			</p>
+		</div>		
 	</div>
 
 	
-	
-	
- <!--infolinks ads-->
-  <script type="text/javascript"> var infolinks_pid = 3186313; var infolinks_wsid = 0; </script> 
-  <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>	
-	
-	
+</footer>
+
+
+
+
+
+<script src="scripts/global_scripts.js"></script>
+<script src="scripts/mediaelement-and-player.js"></script>
+<script src="scripts/player_custom.js"></script>
+<script src="sw.js"></script>
+
+<script>
+      window.setInterval(function(){
+          shows()
+      }, 60000);
+</script>
+
 </body>
-	
-	
-	
-	
-	
-	
 </html>
