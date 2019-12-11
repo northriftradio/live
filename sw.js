@@ -9,6 +9,7 @@ var currentCache = {
 
 var filesToCache = [
     '/index.html',
+    '/m.html',
     '/css/all.css', 
     '/css/mediaelementplayer.css',
     '/css/NRR_page_styling.css',
