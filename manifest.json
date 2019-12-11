@@ -1,0 +1,15 @@
+{
+  "name": "North Rift Radio",
+  "short_name": "North Rift Radio",
+  "description": "Listen to North Rift Radio Live online",
+  "start_url": "/index.html",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "orientation" : "any",
+  "display" : "standalone",
+  "icons": [{
+    "src": "pictures/logo/icon_256.png",
+    "sizes": "256x256",
+    "type": "image/png"
+  }]
+}
