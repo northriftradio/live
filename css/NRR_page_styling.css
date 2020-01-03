@@ -26,12 +26,11 @@ body{
 	background-size: cover;
 	padding: 0;
 	margin: 0;
-	min-height: 100vh;
 }
 
 
 main{
-
+	background: black;
 
 }
 
@@ -96,11 +95,26 @@ main{
 
 
 
+#mobile_text{
+	display: none;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-family: Gotham-Thin;
+	width: 100vw;
+	height: 8vh;
+	background: none;
+}
+
+
+
+
+
 #desk_middle{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 65vh;
+	height: 71vh;
 	width: 100vw;
 }
 
@@ -214,7 +228,7 @@ footer #footer_content_wrapper{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	min-height: 24.8vh;
+	height: 10vh;
 	width: 85vw;
 }
 
@@ -227,15 +241,16 @@ footer #footer_content_wrapper .footer_left_content{
 }
 
 footer #footer_content_wrapper .footer_right_content{
-	
+
 	height: 8vh;
-	width: 30vw;
+	width: 50vw;
+
 }
 
 footer #footer_content_wrapper .footer_right_content p{
 	color: rgba(255,255,255, 0.5);
 	font-family: Gotham-Thin;
-	font-size: 0.8rem;
+	font-size: 0.7rem;
 	text-align: right;
 }
 
@@ -362,25 +377,22 @@ footer #footer_content_wrapper .footer_right_content p a{
 
 
 	#desk_top .desk_top_left_content{
-		width: 50px;
+		width: 100vw;
+		height: 15vh;
 		background: none;
 		padding: 0 0 0 10px;
 	}
 
-	#desk_top .desk_top_right_content .page_title{
-		width: 100%;
+	#desk_top .desk_top_right_content{
+		display: none;
 	}
 
-	#desk_top .desk_top_right_content .page_title h1{
-		text-align: center;
-		font-size: 4vw;
-	}
 
 	#desk_top .desk_top_left_content .page_logo{
 		background: url('../pictures/logo/north_rift_radio_logo_round.jpg') no-repeat;
 		background-size: cover;
-		width: 50px;
-		height: 50px;
+		width: 80px;
+		height: 80px;
 		border-radius: 50%;
 
 	}
@@ -389,12 +401,22 @@ footer #footer_content_wrapper .footer_right_content p a{
 		display: none;
 	}
 
+	#mobile_text{
+		display: flex;
+	}
+
+	#desk_middle{
+		height: 63vh;
+	}
+
 	footer #footer_content_wrapper{
-		width: 100vw;
+		width: 50vw;
+		height: 5vh;
+
 	}
 
 	footer #footer_content_wrapper .footer_left_content{
-		width: 100vw;
+		width: 50vw;
 		background-position: center;
 		
 	}
