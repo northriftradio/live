@@ -412,6 +412,8 @@ footer #footer_content_wrapper .footer_right_content p a{
 	footer #footer_content_wrapper{
 		width: 50vw;
 		height: 5vh;
+		position: fixed;
+		bottom: 12px;
 
 	}
 
